@@ -1,0 +1,6 @@
+jupyterlab
+gensim
+scikit-learn
+findspark
+pandas
+pyarrow
