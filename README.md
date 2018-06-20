@@ -16,7 +16,7 @@ Try on small and big dataset.
 ## Install
 
 ```
-. ~/miniconda3/bin/activate 
+. ~/miniconda3/bin/activate
 conda create -n ms2lda python=3
 conda activate ms2lda
 git clone https://github.com/sdrogers/ms2ldaviz.git
@@ -32,4 +32,6 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-Open `mass2lda*.ipynb` notebooks in Jupyter lab and run the cells.
+Open `lda-compare/*.ipynb` notebooks in Jupyter lab and run the cells.
+
+Compare clusters, max memory usage and duration.
