@@ -4,3 +4,4 @@ scikit-learn
 findspark
 pandas
 pyarrow
+memory_profiler

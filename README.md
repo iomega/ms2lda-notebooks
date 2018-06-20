@@ -24,7 +24,12 @@ wget http://apache.40b.nl/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
 tar -zxf spark-2.3.1-bin-hadoop2.7.tgz
 export SPARK_HOME=$PWD/spark-2.3.1-bin-hadoop2.7
 pip install -r requirements.txt
+# Register this conda env as a Jupyter kernel
+python -m ipykernel install --user --name ms2lda --display-name "Python 3 (ms2lda)
 ```
+
+Ms2lda is Python 2 code so use Python 2 kernel to run notebooks.
+For notebooks not using ms2lda use the Python 3 kernel.
 
 ## Run
 
@@ -35,3 +40,9 @@ jupyter lab
 Open `lda-compare/*.ipynb` notebooks in Jupyter lab and run the cells.
 
 Compare clusters, max memory usage and duration.
+
+# Run lda on big dataset
+
+On https://gnps.ucsd.edu/ all the spectra clustered resulting in 107122 spectra with 229899 words.
+
+In the `big/` directory there are notebooks that perform lda on the dataset.
