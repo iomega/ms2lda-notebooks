@@ -25,7 +25,7 @@ tar -zxf spark-2.3.1-bin-hadoop2.7.tgz
 export SPARK_HOME=$PWD/spark-2.3.1-bin-hadoop2.7
 pip install -r requirements.txt
 # Register this conda env as a Jupyter kernel
-python -m ipykernel install --user --name ms2lda --display-name "Python 3 (ms2lda)
+python -m ipykernel install --user --name ms2lda --display-name "Python 3 (ms2lda)"
 ```
 
 Ms2lda is Python 2 code so use Python 2 kernel to run notebooks.
