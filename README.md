@@ -43,6 +43,15 @@ Compare clusters, max memory usage and duration.
 
 # Run lda on big dataset
 
-On https://gnps.ucsd.edu/ all the spectra clustered resulting in 107122 spectra with 229899 words.
+On https://gnps.ucsd.edu/ all the spectra have been clustered resulting in 107122 spectra with 229899 words.
 
 In the `big/` directory there are notebooks that perform lda on the dataset.
+
+# Dataset from GNPS
+
+Goto https://gnps.ucsd.edu/ProteoSAFe/result.jsp?task=17813156319b488f9b3351c440ac8d92&view=advanced_view
+
+Goto FTP download at ftp://massive.ucsd.edu/MSV000081118
+
+Download ftp://massive.ucsd.edu/MSV000081118/clustered/MSV000081118_specs_ms.mgf
+
