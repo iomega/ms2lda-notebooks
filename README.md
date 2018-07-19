@@ -44,6 +44,7 @@ Compare clusters, max memory usage and duration.
 # Run lda on big dataset
 
 On https://gnps.ucsd.edu/ all the spectra have been clustered resulting in 107122 spectra with 229899 words.
+The mgf file was downloaded from https://gnps.ucsd.edu/ProteoSAFe/gnpslibrary.jsp?library=all, direct link ftp://ccms-ftp.ucsd.edu/Spectral_Libraries/ALL_GNPS.mgf
 
 In the `big/` directory there are notebooks that perform lda on the dataset.
 
